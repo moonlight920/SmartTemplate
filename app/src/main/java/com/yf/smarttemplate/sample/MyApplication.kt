@@ -1,7 +1,7 @@
 package com.yf.smarttemplate.sample
 
 import android.app.Application
-import android.support.v7.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
 import com.yf.smarttemplate.R
 import com.yf.smarttemplate.SmartTemplate
 import com.yf.smarttemplate.sample.container.SampleContainer1

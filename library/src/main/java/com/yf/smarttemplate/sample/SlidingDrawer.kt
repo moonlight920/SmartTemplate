@@ -1,7 +1,7 @@
 package com.yf.smarttemplate.sample
 
 import android.content.Context
-import android.support.annotation.DrawableRes
+import androidx.annotation.DrawableRes
 
 class SlidingDrawer {
 

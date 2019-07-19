@@ -1,8 +1,8 @@
 package com.yf.smarttemplate.fragment
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.view.*
+import androidx.fragment.app.Fragment
 import com.yf.smarttemplate.R
 import com.yf.smarttemplate.constants.Params
 import kotlinx.android.synthetic.main.fragment_document.*
@@ -34,7 +34,7 @@ internal class DocumentFragment : Fragment() {
 
     companion object {
         @JvmStatic
-        fun newInstance(documentPath: String? = "",title:String?) =
+        fun newInstance(documentPath: String? = "", title: String?) =
             DocumentFragment().apply {
                 arguments = Bundle().apply {
                     putString(Params.KEY_DOC_URL, documentPath)
